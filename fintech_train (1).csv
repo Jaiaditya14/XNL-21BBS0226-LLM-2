@@ -1,0 +1,17 @@
+Query,Transaction Description,Support Ticket
+whats my current balance,balance inquiry  123456,customer requests account balance information provide details
+why is my card declined,card declined  insufficient funds,customer reports card decline issue verify account balance and resolve
+how do i set up direct deposit,direct deposit enrollment initiated,customer needs help setting up direct deposit provide instructions
+i didnt authorize this transaction,online purchase  4567 at xyz store,customer disputes a transaction fraud investigation required
+how do i change my pin,pin change request received,customer needs help changing their pin provide instructions
+what are my recent transactions,recent transactions listed  5 items,customer requests a list of recent transactions provide details
+can i increase my credit limit,credit limit increase request received,customer requests a credit limit increase review eligibility and respond
+what is the interest rate on my savings account,interest credited  532,customer inquiring about savings account interest rates provide details
+i need help with a wire transfer,wire transfer initiated  50000 to abc bank,customer needs assistance with a wire transfer confirm details and process
+why is my account overdrawn,overdraft fee  3500,customer inquires about an overdraft fee explain and waive if applicable
+how do i close my account,account closure request initiated,customer wants to close their account confirm and process the request
+i see a duplicate charge on my account,duplicate transaction  3000 at abc store,customer reports a duplicate charge investigate and refund if necessary
+how do i report a lost card,card reported lost  replacement in progress,customer lost their card issue a replacement and block the old one
+why is my payment late,late payment fee  2500,customer inquires about a late payment fee explain and waive if applicable
+why is my account locked,account locked  suspicious activity detected,customer reports a locked account verify identity and unlock if safe
+can i get a statement for last month,monthly statement generated  august 2023,customer requests a copy of their monthly statement send via email

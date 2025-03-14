@@ -1,0 +1,17 @@
+Query,Transaction Description,Support Ticket
+whats current balance,balance inquiry 123456,customer requests account balance information provide details
+card declined,card declined insufficient funds,customer reports card decline issue verify account balance resolve
+set direct deposit,direct deposit enrollment initiated,customer needs help setting direct deposit provide instructions
+didnt authorize transaction,online purchase 4567 xyz store,customer disputes transaction fraud investigation required
+change pin,pin change request received,customer needs help changing pin provide instructions
+recent transactions,recent transactions listed 5 items,customer requests list recent transactions provide details
+increase credit limit,credit limit increase request received,customer requests credit limit increase review eligibility respond
+interest rate savings account,interest credited 532,customer inquiring savings account interest rates provide details
+need help wire transfer,wire transfer initiated 50000 abc bank,customer needs assistance wire transfer confirm details process
+account overdrawn,overdraft fee 3500,customer inquires overdraft fee explain waive applicable
+close account,account closure request initiated,customer wants close account confirm process request
+see duplicate charge account,duplicate transaction 3000 abc store,customer reports duplicate charge investigate refund necessary
+report lost card,card reported lost replacement progress,customer lost card issue replacement block old one
+payment late,late payment fee 2500,customer inquires late payment fee explain waive applicable
+account locked,account locked suspicious activity detected,customer reports locked account verify identity unlock safe
+get statement last month,monthly statement generated august 2023,customer requests copy monthly statement send via email
