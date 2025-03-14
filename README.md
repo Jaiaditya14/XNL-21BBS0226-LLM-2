@@ -13,6 +13,7 @@ In the first phase, we curated a simulated fintech dataset containing financial 
 For model fine-tuning, we set up a Python environment with PyTorch/TensorFlow, Hugging Face Transformers, and necessary dataset libraries. A pretrained LLM (such as OPT, LLaMA, or GPT) was loaded, and prompt engineering strategies were applied to enhance performance. Hyperparameters, including learning rate, batch size, and number of epochs, were carefully tuned based on validation metrics like perplexity, accuracy, and F1 score. Experiment tracking was integrated using TensorBoard, ensuring that all model checkpoints and hyperparameter configurations were logged for reproducibility.
 
 Performance Metrics:
+
 ![image](https://github.com/user-attachments/assets/ddfb703b-4f3e-47d1-9b14-b4998ac72221)
 
  Example Model Predictions (Before & After Fine-Tuning):
