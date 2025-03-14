@@ -2,81 +2,17 @@
 Fintech LLM Fine-Tuning &amp; Optimization in collaboration with XNL-Innovation
 Project Overview
 
-This project involves fine-tuning a large language model (LLM) on a fintech dataset to enhance its understanding of financial queries, transactions, and support tickets. The workflow is structured into three major phases:
-
--Data Preparation & Preprocessing
--Model Fine-Tuning
--Optimization & Benchmarking
+This project involves fine-tuning a large language model (LLM) on a fintech dataset to enhance its understanding of financial queries, transactions, and support tickets.
 
 The goal is to optimize the model for latency, efficiency, and accuracy while maintaining high performance for fintech applications.
 
-PART 1: DATA PREPARATION & PREPROCESSING
+The project involved three major phases: Data Preparation & Preprocessing, Model Fine-Tuning, and Optimization & Benchmarking.
 
-1️) Collect & Curate a Fintech Dataset
+In the first phase, we curated a simulated fintech dataset containing financial queries, transaction descriptions, and support tickets. Using libraries like Pandas, NLTK, and NumPy, we cleaned and preprocessed the data, ensuring normalization and tokenization of financial terms. The dataset was then split into training, validation, and test sets. A data pipeline was implemented to automate these preprocessing steps, and statistical insights were documented for reference.
 
-Simulated financial queries, transaction descriptions, and support tickets.
+For model fine-tuning, we set up a Python environment with PyTorch/TensorFlow, Hugging Face Transformers, and necessary dataset libraries. A pretrained LLM (such as OPT, LLaMA, or GPT) was loaded, and prompt engineering strategies were applied to enhance performance. Hyperparameters, including learning rate, batch size, and number of epochs, were carefully tuned based on validation metrics like perplexity, accuracy, and F1 score. Experiment tracking was integrated using TensorBoard, ensuring that all model checkpoints and hyperparameter configurations were logged for reproducibility.
 
-Cleaned and preprocessed the dataset using Pandas, NLTK, and NumPy.
+Finally, in the optimization and benchmarking phase, we measured inference latency, throughput, and memory usage on the test dataset. Techniques such as model quantization and optimized batching were applied to reduce latency, while knowledge distillation was used to minimize model size. Each optimization step was followed by re-benchmarking to assess improvements. Extensive evaluations were conducted to strike a balance between accuracy, efficiency, and speed, comparing the optimized models against baseline performance.
 
-Split the dataset into train, validation, and test sets.
-
-2️) Develop a Data Pipeline
-
-Implemented a script to automate data preprocessing.
-
-Tokenized text and normalized financial terms.
-
-Documented data statistics and sample records.
-
-PART 2: MODEL FINE-TUNING SETUP
-
-1️) Environment Setup
-
-Configured Python environment using:
-
-PyTorch / TensorFlow
-
-Hugging Face Transformers
-
-Datasets and Tokenizers libraries
-
-2️) Fine-Tuning Process
-
-Loaded a pretrained LLM (e.g., OPT, LLaMA, GPT) for training.
-
-Implemented prompt engineering strategies.
-
-Tuned hyperparameters such as:
-
-Learning Rate, Batch Size, Epochs
-
-Validation metrics: Perplexity, Accuracy, F1 Score
-
-3️) Experiment Logging
-
-Integrated TensorBoard for experiment tracking.
-
-Saved model checkpoints & hyperparameter configurations.
-
-PART 3: OPTIMIZATION & BENCHMARKING
-
-1️) Measure Latency & Throughput
-
-Benchmarked inference latency & throughput using the test dataset.
-
-Recorded response times, memory usage, and FLOPs.
-
-2️) Optimize Model Inference
-
-Applied Model Quantization and Optimized Batching for speedup.
-
-Used Distillation Techniques to reduce model size.
-
-Re-benchmarked performance after each optimization step.
-
-3️) Evaluate Accuracy & Efficiency
-
-Conducted extensive evaluation to balance latency, efficiency, and accuracy.
-
-Compared optimized models against baseline performance.
-
+Architecture & Design Diagrams (if applicable) illustrating the data pipeline and fine‑tuning workflow:
+![image](https://github.com/user-attachments/assets/ae306719-211e-4713-9bb6-c1cae19ff3a9)
